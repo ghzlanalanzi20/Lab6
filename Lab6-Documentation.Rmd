@@ -98,10 +98,16 @@ Along with the name of the state we have the two-letter abbreviation and we have
 1.  What are the dimensions of the Denny's dataset?
     (Hint: Use inline R code and functions like `nrow` and `ncol` to compose your answer.) What does each row in the dataset represent?
     What are the variables?
+    
+row = 1643 , colum = 6.
+the row it's about the restaurant address (more information about it) column (address, city, state, zip, longitude, latitude)
 
 2.  What are the dimensions of the La Quinta's dataset?
     What does each row in the dataset represent?
     What are the variables?
+    
+row = 909 , colum = 6.
+the row it's about the hotels address (more information about it) column (address, city, state, zip, longitude, latitude)
 
 Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
