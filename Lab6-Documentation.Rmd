@@ -116,11 +116,15 @@ We would like to limit our analysis to Denny's and La Quinta locations in the Un
 
 3.  Add a country variable to the Denny's and La Quinta's datasets and set all observations equal to `"United States"`. Remember, you can use the `mutate` function for adding a variable. Make sure to save the result of this as `dn` and lq, respectively, so that the stored data frame contains the new variable going forward.
 
+
 We don't need to tell R how many times to repeat the character string "United States" to fill in the data for all observations, R takes care of that automatically.
 
 ```{r}
 dn <- dennys %>%
   mutate(country = "United States")
+
+lq <- laquinta %>%
+     mutate(country = "United States")
 ```
 
 Add the code below for La Quinta's dataset
